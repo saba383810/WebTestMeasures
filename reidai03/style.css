@@ -1,0 +1,51 @@
+th,td {
+    
+    border: solid 1px;          /* 枠線指定 */
+}
+ 
+table {
+    border-collapse:  collapse; /* セルの線を重ねる */
+    width:  60%;            /* 幅指定 */
+    text-align:center;
+}
+ 
+th {
+
+    width:  20px;              /* 幅指定 */
+    font-weight:  bold;       /* 文字の太さ指定 */
+    font-size: 20px;
+}
+ 
+td {
+    font-size: 30px;
+    font-weight:  bold;         /* 文字の太さ指定 */
+}
+body{
+    margin: 30px;
+}
+.midasi1{
+    width: 100px;
+    background-color: rgb(255, 251, 213);
+}
+.kaiin{
+    font-size: 15px;
+    background-color: rgb(197, 195, 195);
+}
+.gaiyou{
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(167, 248, 248);
+}
+#midasi2{
+    background-color: rgb(252, 185, 62);
+    height: 40px;
+}
+#midasi3{
+    background-color: rgb(243, 78, 174);
+    height: 40px;
+}
+#midasi4{
+    background-color: red;
+    height: 40px;
+}
