@@ -1,0 +1,15 @@
+#boxlink{
+    width: 800px;
+    height: 200px;
+    margin: 50px auto;
+    align-self: auto;;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    border: 10px solid darkblue;
+}
+p{
+    margin: 0 auto;
+    padding: 50px;
+}
