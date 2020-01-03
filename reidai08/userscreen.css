@@ -1,0 +1,40 @@
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+td:first-child {
+    color: red;
+   
+}
+
+td:last-child {
+    color: royalblue;
+}
+
+td.is-disabled {
+    color: #ccc;
+}
+p{
+font-size: 15px;
+
+}
+h1 {
+    color: #6594e0;/*文字色*/
+    /*線の種類（点線）2px 線色*/
+    border-bottom: dashed 2px #6594e0;
+    font-size: 30px;
+  }
+.today{
+    background: rgb(224, 44, 104);
+    font-size: 30px;
+    /*background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAJElEQVQYV2NkwAT1jGhi9QwMDI3IgmABkCKYIFwAJogiABIEAM2/BIWEpQYtAAAAAElFTkSuQmCC
+    ) repeat;*/
+}
