@@ -1,9 +1,9 @@
 //初期化
 var sum = 0;
-var avg = 0;
 var min = 100;
 var Max = 0;
-var dif;
+var diff;
+var avg;
 //乱数を10個表示
 for(var i = 0; i<10;i++){
     var random = Math.floor( Math.random() * 89 ) + 10;
