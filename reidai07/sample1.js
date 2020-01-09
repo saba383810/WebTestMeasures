@@ -16,7 +16,7 @@ avg = sum /10; // 平均値の計算
 diff = Max-min; // 最大値と最小値の差
 // 計算結果を表示
 document.write("<p>合計 : ",sum,"</p>");
-document.write("<p>平均 : ",avg,"</p>")
+document.write("<p>平均 : ",avg,"</p>");
 document.write("<p>最大値 : ",Max,"</p>");
 document.write("<p>最小値 : ",min,"</p>");
 document.write("<p>最大値と最小値の差 : ",diff,"</p>");
