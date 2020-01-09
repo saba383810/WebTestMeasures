@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="sample.css">
     <title>入会フォーム</title>
 </head>
@@ -14,13 +15,48 @@
         <p>あなたとともに健康を作り出す 本格フィットネスクラブ Fit.Lab24＜フィットネスラボ24＞</p>
     </header>
 
-        <h2>web入会フォーム</h2>
-    <form action="#" method="post">
-        <p>お名前（必須）：<br>
-        <input type="text" name="name"></p>
-        <p>メールアドレス：<br>
-        <input type="text" name="mail"></p>
-    </form>
+    <h2>web入会フォーム</h2>
+    <div class="content">
+        <form action="#" method="post">
+            <div class="col-sm-6">
+                <p>性<input type="text" name="name" placeholder="例) 佐藤" class="formSize"></p>
+            </div>
+            <div class="col-sm-6">
+                <p>名<input type="text" name="mail" placeholder="例) 太郎"></p>
+            </div>
+
+            <div class="col-sm-6">
+                <p>セイ <input type="text" name="name" placeholder="例) サトウ"></p>
+            </div>
+            <div class="col-sm-6">
+                <p>メイ <input type="text" name="name" placeholder="例) タロウ"></p>
+            </div>
+
+            <div class="col-sm-12">
+                <p>メールアドレス <input type="email" name="email" placeholder="メールアドレス"></p>
+            </div>
+            <div class="col-sm-12">
+                <p>ユーザーネーム <input type="text" name="name" placeholder="ユーザーネーム"></p>
+            </div>
+            <div class="col-sm-12">
+                <p>パスワード <input type="password" name="pass" placeholder="パスワード"></p>
+            </div>
+            <div>
+                <p>プランを選択してください
+                    <select name="example">
+                        <option value="選択肢1">会員を選択してください</option>
+                        <option value="選択肢2">レギュラー会員</option>
+                        <option value="選択肢3">プレミアム会員</option>
+                    </select>
+                </p>
+            </div>
+        </form>
+        <button type="button">送信</button>
+    </div>
+    <br>
+    <footer>
+        <p>&copy; 2019 Fit.Lab24</p>
+    </footer>
 
 </body>
 </html>
