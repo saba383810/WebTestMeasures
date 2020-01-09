@@ -1,4 +1,26 @@
  hr{
-    background: blue;
+    background: darkblue;
     height: 2px;
  }
+ header {
+
+    border-top: 15px solid darkblue;
+    border-bottom: 6px solid darkblue;
+    background: skyblue;
+    
+    
+ }
+ header h1{
+    margin-left: 10px;
+    color: red;
+    font-family: arial;
+ }
+ header p{
+     text-align: right;
+ }
+
+ h2{
+    text-align: center;
+    margin: 10px 0;
+    border-bottom: 6px solid darkblue;
+}
